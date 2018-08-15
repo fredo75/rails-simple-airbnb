@@ -5,3 +5,62 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Flat.create!(
+  name: 'super appart',
+  address: '10 place de oufff',
+  description: 'Un super appartement à coté des bars bruyants',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+Flat.create!(
+  name: 'Une cave à clichy',
+  address: '120 rue de cluchy',
+  description: 'A lovely summer feel area, large kitchen and a beautiful conservatory',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+
+Flat.create!(
+  name: 'Un boat sur la seine',
+  address: '1eh bien sur la seine',
+  description: '#####',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+
+Flat.create!(
+  name: 'La tour effel',
+  address: 'au 4eme etage de la tour',
+  description: 'A lovely summer tiful conservatory',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+Flat.create!(
+  name: 'Sur le Perif de Paris',
+  address: 'A coté du bitume',
+  description: 'A lovely summer',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+
+Flat.create!(
+  name: 'Passage tete à l_envers' ,
+  address: '10 Clifton Gardens London W9 1DT',
+  description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
+  price_per_night: 7,
+  number_of_guests: 2
+)
+
+
+Flat.create!(
+  name: 'Flat London',
+  address: '10 C1DT',
+  description: 'A lovely summer g area, large kitchen and a beautiful conservatory',
+  price_per_night: 5,
+  number_of_guests: 1
+)
